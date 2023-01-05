@@ -1,22 +1,14 @@
 # professional-readme
 
-  ## Description
-    A professional read me generated through node script.js. Linked to file in distribution folder that automatically generates once prompts have been answered. 
+[Link to my project](https://raw.githubusercontent.com/alandis01/professional-readme/main/dist/README.md)
 
   ## Table of Contents
-  - [Installation](#installation)
-  - [Tests](#tests)
-  - [License](#license)
-  - [Username](#username)
+  - [Description of project](#description-of-project)
+  - [visuals](#visuals)
 
-  ## Installation
-    Using index.js and generateMarkdown.js 
+  ## description-of-project
+      A professional read me generated through node script.js. Linked to file in distribution folder that automatically generates once prompts have been answered. 
 
-  ## Tests
-    Ran program several times with success 
-
-  ## License 
-[![License: ISC](https://img.shields.io/badge/License-ISC-yellow.svg)](https://opensource.org/licenses/ISC)
-    
-  ## Username
-    alandis01
+  ## visuals
+![README-1](./images/README%20-%20vscode.png)
+![README-2](./images/README%20-%20link.png)

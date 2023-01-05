@@ -13,7 +13,7 @@
     index.js and generateMarkdown.js
 
   ## Tests
-    node index.js
+    run node index.js inside terminal
 
   ## License 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
