@@ -1,7 +1,7 @@
-# undefined
+# professional-readme
 
   ## Description
-    a professional readme that will prompt questions for response in the terminal
+    A professional read me generated through node script.js. Linked to file in distribution folder that automatically generates once prompts have been answered. 
 
   ## Table of Contents
   - [Installation](#installation)
@@ -10,10 +10,10 @@
   - [Username](#username)
 
   ## Installation
-    undefined
+    Using index.js and generateMarkdown.js 
 
   ## Tests
-    run node index.js in terminal
+    Ran program several times with success 
 
   ## License 
 [![License: ISC](https://img.shields.io/badge/License-ISC-yellow.svg)](https://opensource.org/licenses/ISC)

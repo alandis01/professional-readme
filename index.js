@@ -44,24 +44,8 @@ const questions = () => {
     ])
 }
 
-// function generatePage(generatePage, data) {
-//     fs.writeToFile('professional-README.md', data, err => {
-//         if (err) {
-//             console.log(err);
-//             return;
-//         } else {
-//             console.log("file written")
-//         }
-//     })
-// };
-
 const writeFile = data => {
     fs.writeFile('./dist/README.md', data, err => {
-        // if (err) {
-        //     console.log(err);
-        // } else {
-        //     console.log(working);
-        // }
         })
     };
 
