@@ -61,7 +61,7 @@ const questions = () => {
 // };
 
 const writeFile = data => {
-    fs.writeFile('README.md', data, err => {
+    fs.writeFile('./dist/README.md', data, err => {
         // if (err) {
         //     console.log(err);
         // } else {
@@ -78,8 +78,3 @@ questions()
         return writeFile(data);
     })
 
-// TODO: Create a function to initialize app
-// function init(generateMarkdown) { }
-
-// Function call to initialize app
-// init(generateMarkdown);
