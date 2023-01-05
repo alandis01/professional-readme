@@ -8,7 +8,7 @@ const questions = () => {
         {
             type: 'input',
             message: 'What is your project title?',
-            name: 'project title',
+            name: 'projectTitle',
         },
         {
             type: 'input',
@@ -23,12 +23,12 @@ const questions = () => {
         {
             type: 'input',
             message: 'Please enter usage information.',
-            name: 'usage information',
+            name: 'usageInformation',
         },
         {
             type: 'input',
             message: 'Please enter contribution guidelines.',
-            name: 'contribution guidelines',
+            name: 'contributionGuidelines',
         },
         {
             type: 'input',
