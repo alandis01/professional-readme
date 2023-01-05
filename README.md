@@ -1,7 +1,7 @@
 # undefined
 
   ## Description
-    
+    a professional readme that will prompt questions for response in the terminal
 
   ## Table of Contents
   - [Installation](#installation)
@@ -13,10 +13,10 @@
     undefined
 
   ## Tests
-    
+    run node index.js in terminal
 
   ## License 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: ISC](https://img.shields.io/badge/License-ISC-yellow.svg)](https://opensource.org/licenses/ISC)
     
   ## Username
-    
+    alandis01
