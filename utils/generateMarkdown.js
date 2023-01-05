@@ -11,7 +11,7 @@ const generateMarkdown = data => {
   - [Username](#username)
 
   ## Installation
-    ${data.installation}
+    ${data.install}
 
   ## Tests
     ${data.test}
