@@ -1,7 +1,7 @@
 # professional-readme
 
   ## Description
-    read me that works with node to generate a readme
+    a read me generated through node in the terminal
 
   ## Table of Contents
   - [Installation](#installation)
@@ -10,7 +10,7 @@
   - [Username](#username)
 
   ## Installation
-    undefined
+    index.js and generateMarkdown.js
 
   ## Tests
     node index.js
