@@ -27,11 +27,6 @@ const questions = () => {
         },
         {
             type: 'input',
-            message: 'Please enter contribution guidelines.',
-            name: 'contributionGuidelines',
-        },
-        {
-            type: 'input',
             message: 'Please enter instructions to run tests.',
             name: 'test',
         },

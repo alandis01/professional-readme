@@ -1,5 +1,5 @@
 const generateMarkdown = data => {
-  return `# ${data.title}
+  return `# ${data.projectTitle}
 
   ## Description
     ${data.description}
