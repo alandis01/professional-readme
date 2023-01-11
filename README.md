@@ -2,6 +2,8 @@
 
 [Link to my project](https://raw.githubusercontent.com/alandis01/professional-readme/main/dist/README.md)
 
+[Link to project video walk-through](https://drive.google.com/file/d/12DkFeVSY9CElXkzXmwX70GQn3wO26-zD/view?usp=sharing)
+
   ## Table of Contents
   - [Description of project](#description-of-project)
   - [visuals](#visuals)
