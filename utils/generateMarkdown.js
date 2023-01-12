@@ -1,5 +1,19 @@
+function renderLicenseBadge(license) {
+  return `![GitHub license](https://shields.io/badge/license-${license})`;
+}
+
+function renderLicenseLink(license) {
+  return `[${license}](https://opensource.org/licenses/${license})`;
+}
+
+function renderLicenseSection(license) {
+  return `[${renderLicenseBadge(license)}](https://opensource.org/licenses/${license})`;
+}
+
 const generateMarkdown = data => {
   return `# ${data.projectTitle}
+
+${renderLicenseSection(data.license)}
 
   ## Description
     ${data.description}
@@ -25,7 +39,9 @@ const generateMarkdown = data => {
     ${data.usage}
 
   ## License
-  [![License: ${encodeURIComponent(data.license)}](https://img.shields.io/badge/License-${encodeURIComponent(data.license)}-yellow.svg)](https://opensource.org/licenses/${encodeURIComponent(data.license)})
+  This project is licensed under the ${renderLicenseLink(data.license)} license. 
+
+  // [![License: ${encodeURIComponent(data.license)}](https://img.shields.io/badge/License-${encodeURIComponent(data.license)}-yellow.svg)](https://opensource.org/licenses/${encodeURIComponent(data.license)})
 
   ## Contributing
     ${data.contributing}
