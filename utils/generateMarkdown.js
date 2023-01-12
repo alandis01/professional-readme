@@ -5,22 +5,38 @@ const generateMarkdown = data => {
     ${data.description}
 
   ## Table of Contents
-  - [Installation](#installation)
-  - [Tests](#tests)
-  - [License](#license)
-  - [Username](#username)
+
+  * [Installation](#installation)
+
+  * [Usage](#usage)
+
+  * [License](#license)
+
+  * [Contributing](#contributing)
+
+  * [Test](#test)
+
+  * [Questions](#questions)
 
   ## Installation
     ${data.install}
 
-  ## Tests
+  ## Usage 
+    ${data.usage}
+
+  ## License
+  [![License: ${encodeURIComponent(data.license)}](https://img.shields.io/badge/License-${encodeURIComponent(data.license)}-yellow.svg)](https://opensource.org/licenses/${encodeURIComponent(data.license)})
+
+  ## Contributing
+    ${data.contributing}
+
+  ## Test
     ${data.test}
 
-  ## License 
-[![License: ${encodeURIComponent(data.license)}](https://img.shields.io/badge/License-${encodeURIComponent(data.license)}-yellow.svg)](https://opensource.org/licenses/${encodeURIComponent(data.license)})
-    
-  ## Username
-    ${data.username}
+  ## Questions
+
+  If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [${data.gitHub}](https://github.com/${data.gitHub}.
+
 `
 }
 module.exports = generateMarkdown;

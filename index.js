@@ -23,12 +23,7 @@ const questions = () => {
         {
             type: 'input',
             message: 'Please enter usage information.',
-            name: 'usageInformation',
-        },
-        {
-            type: 'input',
-            message: 'Please enter instructions to run tests.',
-            name: 'test',
+            name: 'usage',
         },
         {
             type: 'list',
@@ -38,8 +33,23 @@ const questions = () => {
         },
         {
             type: 'input',
+            message: 'Add any additional contribution details',
+            name: 'contributing',
+        },
+        {
+            type: 'input',
+            message: 'Please enter instructions to run tests.',
+            name: 'test',
+        },
+        {
+            type: 'input',
             message: 'What is your GitHub username',
-            name: 'username',
+            name: 'gitHub',
+        },
+        {
+            type: 'input',
+            message: 'What is your email address',
+            name: 'email',
         },
     ])
 }
